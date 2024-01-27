@@ -1,5 +1,6 @@
 import Header from "./Header"
 import Game from "./Game"
+import "../App.css"
 
 function App() {
   return (
