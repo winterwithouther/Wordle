@@ -1,0 +1,34 @@
+
+.error-message-container {
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+    z-index: 999;
+  }
+  
+  .alert-container {
+    width: 400px;
+  }
+  
+  .alert-animation-enter {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  
+  .alert-animation-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms, ;
+  }
+  
+  .alert-animation-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .alert-animation-exit-active {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+  
